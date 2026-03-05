@@ -1,8 +1,10 @@
 \documentclass{article}
 \usepackage{amsmath, fullpage}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{refs.bib}
+\usepackage{hyperref}
 
 \begin{document}
-
 \title{Review of ``Learning Explainable Imaging-Genetics Associations Related to a Neurological Disorder''}
 \author{DEGENEVE Hugo, KAPOTOS Fotios}
 %\date{\vspace{-5ex}}
@@ -10,7 +12,8 @@
 \thispagestyle{empty}
 
 \input{1.summary.tex}
+\input{2.limitations.tex}
 
-
+\printbibliography
 
 \end{document}
