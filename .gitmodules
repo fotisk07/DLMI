@@ -1,0 +1,3 @@
+[submodule "DLMI-challenge"]
+	path = DLMI-challenge
+	url = git@github.com:fotisk07/DLMI-challenge.git
